@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#F1E9E6"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity2">
+
+<LinearLayout
+    android:id="@+id/line2"
+    android:layout_margin="@dimen/_10sdp"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_200sdp">
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1"
+            android:text="Nutrition"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:backgroundTint="#F8C11E"
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="@dimen/_50sdp"/>
+        <Button
+            android:id="@+id/button2"
+            android:text="schedule time"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:backgroundTint="#F15B2C"
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="@dimen/_50sdp"/>
+
+        </LinearLayout>
+</LinearLayout>
